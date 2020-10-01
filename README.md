@@ -31,7 +31,7 @@ This package runs under Python 2.7, and 3.6+, use pip_ to install:
 
 .. code:: bash
 
-    $ pip install read-excel
+    $ pip install exceldrive2py
 
 This will also install google-api-python-client_ and its dependencies, notably
 httplib2_ and oauth2client_, as required dependencies.
@@ -53,7 +53,7 @@ import the library and load the data by passing the filename and json file downl
 
 .. code:: python
 
-    >>> import read-excel as rf
+    >>> import exceldrive2py as rf
 
     >>> dataframe = rf.load_data(filename_of_your_sheet,json_path)
 
@@ -62,6 +62,6 @@ For plotting the data you have to pass the dataframe you just loaded and pass th
 .. code:: python
 
     for plotting
-    >>> plot_data(dataframe,"x-axis-column","y-axis-column")
+    >>> rf.plot_data(dataframe,"x-axis-column","y-axis-column")
 ...
-
+![Screenshot](sample.png)
