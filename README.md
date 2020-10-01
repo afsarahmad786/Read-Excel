@@ -7,14 +7,14 @@ gsheets
 ``gsheets`` is a small wrapper around the [`Google Sheets API`_ (v4)](https://docs.google.com/spreadsheets) to provide
 more convenient access to [`Google Sheets`_](https://docs.google.com/spreadsheets) from Python scripts.
 
-go to [google console](console.cloud.google.com) 
-1.Create a Project in google cloud
-2.through Navigation menu Go ti API'S & Services and go to library
-3.search for google sheets api and enable it
+go to [google console](console.cloud.google.com) <br />
+1.Create a Project in google cloud <br />
+2.through Navigation menu Go ti API'S & Services and go to library <br />
+3.search for google sheets api and enable it <br />
 4.search for google drive api enable it and on the right side corner click on create credentials
-select google drive api in which api you are using column and web server (eg node js tomcat) in  Where will you be calling the API from dropdown and tick on application data. and then no and press button
-5.fill any name in account and role select project and then editor and type json and submit. it will download the json file .
-6.open json file search client email go to google sheet you want to use and select share and give access to client email and send.
+select google drive api in which api you are using column and web server (eg node js tomcat) in  Where will you be calling the API from dropdown and tick on application data. and then no and press button<br />
+5.fill any name in account and role select project and then editor and type json and submit. it will download the json file .<br />
+6.open json file search client email go to google sheet you want to use and select share and give access to client email and send.<br />
 
 
 Links
