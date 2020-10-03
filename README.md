@@ -25,7 +25,7 @@ Links
 
 Libraries
 _________
-.. code:: bash
+
 
     $ pip install -r requirements.txt
 
@@ -67,6 +67,6 @@ For plotting the data you have to pass the dataframe you just loaded and pass th
 .. code:: python
 
     for plotting
-    >>> plot_data(dataframe,"x-axis-column","y-axis-column")
+    >>> rf.plot_data(dataframe,"x-axis-column","y-axis-column")
 ...
 
