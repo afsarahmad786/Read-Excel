@@ -69,4 +69,4 @@ For plotting the data you have to pass the dataframe you just loaded and pass th
     for plotting
     >>> rf.plot_data(dataframe,"x-axis-column","y-axis-column")
 ...
-
+![Screenshot](sample.png)
